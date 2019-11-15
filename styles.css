@@ -52,7 +52,7 @@ a:hover {
     float:left;
     width:270px;
     height: 250px;
-    padding:10px;
+    padding:5px;
     padding-left: 0;
 }
 #about,p{
@@ -80,17 +80,18 @@ span {
   #gal{
       text-align: center;
       font-size: 30px;
-      padding-top: 30px;
+      padding-top: 20px;
   }
   #gallery,#gallery2{
       display:flex;
+     justify-content: center;
       overflow: hidden;
-      padding:20px;
-      padding-top: 30px;
-      padding-bottom: 30px;
+      padding:10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
   }
   #gallery>div, #gallery2>div{
-      padding-left: 10%;
+      padding-left: 2%;
   }
   img{
       border-radius: 8%;
